@@ -1,65 +1,92 @@
-<img width="2048" height="2048" alt="Icon" src="https://github.com/user-attachments/assets/ba428934-8c72-4dd8-946e-2c1abbfff1e1" />
+<div align="center">
+
+<img width="256" height="256" alt="Mocha 101 Icon" src="https://github.com/user-attachments/assets/ba428934-8c72-4dd8-946e-2c1abbfff1e1" />
 
 # Mocha 101
 
-A sharp-edged Hyprland dotfiles configuration featuring the Catppuccin Mocha color palette. Clean, minimal, and performance-focused.
+*A sharp-edged Hyprland experience wrapped in Catppuccin Mocha*
 
-![Catppuccin Mocha](https://img.shields.io/badge/theme-Catppuccin%20Mocha-cba6f7?style=for-the-badge)
-![Hyprland](https://img.shields.io/badge/WM-Hyprland-5865f2?style=for-the-badge)
+[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor1FF?style=flat&logo=wayland&logoColor=black
 
-## 🎨 Theme
+</div>
 
-Built on the beautiful [Catppuccin Mocha](https://catppuccin.com/palette/) color palette with zero border-radius design philosophy for crisp, angular aesthetics.
+***
 
-**Primary Colors:**
-- Base: `#1e1e2e`
-- Lavender: `#b4befe`
-- Mauve: `#cba6f7`
+### Philosophy
 
-## ✨ Features
+Mocha 101 embraces a zero border-radius design language—crisp angles, sharp edges, and uncompromising precision. Built on the elegant Catppuccin Mocha palette, this configuration prioritizes performance and visual cohesion across your entire workflow.
 
-- **Dynamic Wallpapers**: Custom script loads random wallpapers from designated folder
-- **Custom Rofi Theme**: Based on adi1090x's Type 1 / Style 3 with modified Catppuccin colors
-- **Unified Theme**: Consistent Catppuccin Mocha across all applications
-- **Notification Center**: Swaync with custom CSS styling
-- **Lock Screen**: Hyprlock with Hypridle integration
+**Core Palette**
+- **Base** `#1e1e2e` — Deep, focused backgrounds
+- **Lavender** `#b4befe` — Primary accents
+- **Mauve** `#cba6f7` — Secondary highlights
 
-## 📦 Dependencies
+### Features
 
-### Core Components
-- **Window Manager**: Hyprland
-- **Status Bar**: Waybar
-- **Wallpaper Manager**: Hyprpaper
-- **Notifications**: Swaync
-- **Terminal**: Kitty
-- **Screenshots**: Hyprshot
-- **Launcher**: Rofi
-- **Lock Screen**: Hyprlock + Hypridle
-- **System Info**: Fastfetch
-- **Shell**: ZSH with Oh My Zsh
-- **Display Manager**: SDDM (recommended if switching from GDM)
+- **Dynamic Wallpapers** — Automated rotation via custom `walls.sh` script
+- **Unified Theming** — Catppuccin Mocha across all applications
+- **Custom Rofi** — Modified adi1090x Type 1/Style 3 launcher
+- **Notification Center** — Styled Swaync with custom CSS
+- **Integrated Lock Screen** — Hyprlock and Hypridle configuration
+- **Performance First** — Lightweight and responsive compositor setup
 
-### Optional
-- **File Manager**: Dolphin (KDE integration)
-- **Browser**: Zen Browser
-- **DE Fallback**: KDE Plasma for global theming
+### Quick Start
 
-## 🎨 Customizations
+**Requirements:** Arch Linux with `yay` access
 
-### Applications
+```bash
+git clone https://github.com/BeetleBot/Mocha101.git
+cd Mocha101
+chmod +x install.sh
+./install.sh
+```
 
-| Application | Theme Source | Notes |
-|-------------|--------------|-------|
-| Zen Browser | [catppuccin/zen-browser](https://github.com/catppuccin/zen-browser) | - |
-| VS Code | [catppuccin/vscode](https://github.com/catppuccin/vscode) | - |
-| Kitty | [catppuccin/kitty](https://github.com/catppuccin/kitty/tree/main/themes) | Slightly modified |
-| Rofi | [adi1090x/rofi](https://github.com/adi1090x/rofi) | Type 1, Style 3 (modified colors) |
-| SDDM | [catppuccin/sddm](https://github.com/catppuccin/sddm) | - |
-| Swaync | Custom CSS | Included in repo |
+The installer will automatically:
+- Verify system compatibility and install `yay` if needed
+- Install all required dependencies from official and AUR repositories
+- Backup existing configurations to `~/ConfigBackup/`
+- Deploy dotfiles to `~/.config/`
+- Copy wallpaper script to your home directory
+- Offer Oh My Zsh installation
+- Prompt for reboot to finalize changes
 
-### Terminal Setup
-- **ZSH Theme**: Powerlevel10k
-- **Prompt**: Customized for Mocha palette
+### Stack
 
-### KDE Integration
-For Dolphin file manager integration with KDE themes in Hyprland:
+| Component | Application | Purpose |
+|-----------|-------------|---------|
+| Compositor | Hyprland | Window management |
+| Panel | Waybar | Status bar |
+| Wallpapers | Hyprpaper | Background handler |
+| Notifications | Swaync | Notification daemon |
+| Terminal | Kitty | Terminal emulator |
+| Screenshots | Hyprshot | Capture utility |
+| Launcher | rofi-wayland | Application finder |
+| Lock Screen | Hyprlock + Hypridle | Session security |
+| System Info | Fastfetch | Hardware display |
+| Shell | ZSH + Oh My Zsh | Command line |
+| Display Manager | SDDM | Login screen |
+| Font | JetBrains Mono Nerd | Typography |
+
+**Recommended Additions**
+- File Manager: Dolphin
+- Browser: Zen Browser
+- DE Integration: KDE Plasma (for global theming)
+
+### Theming Details
+
+All applications follow the Catppuccin Mocha specification:
+
+- **Zen Browser** — [catppuccin/zen-browser](https://github.com/catppuccin/zen-browser)
+- **VS Code** — [catppuccin/vscode](https://github.com/catppuccin/vscode)
+- **Kitty** — Modified Catppuccin Mocha (included)
+- **Rofi** — [adi1090x/rofi](https://github.com/adi1090x/rofi) Type 1/Style 3 with custom colors
+- **SDDM** — [catppuccin/sddm](https://github.com/catppuccin/sddm)
+- **Swaync** — Custom CSS (included in repository)
+
+**Terminal Configuration**
+
+The ZSH environment uses Powerlevel10k with a custom prompt calibrated to the Mocha palette, ensuring visual consistency from compositor to command line.
+
+**KDE Integration Note**
+
+For optimal Dolphin integration and system-wide theme consistency, consider installing KDE Plasma as a secondary environment. This enables proper Qt theming and global settings management.

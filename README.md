@@ -67,8 +67,10 @@ The **Super** key (Windows key) is your main modifier.
 | `Super + Return` | Open Terminal (Kitty) |
 | `Super + Q` | Kill Active Window |
 | `Super + Space` | Open App Launcher (Rofi) |
-| `Super + X` | Exit Hyprland |
-| `Super + Shift + X` | Power Off System |
+| `Super + X` | Rofi's Powermenu |
+| `Super + Period` | Emoji picker |
+| `Super + /` | Clipboard |
+| `Super + Alt + Space` | File browser |
 | `Super + Shift + L` | Lock Screen |
 | `Super + V` | Toggle Floating Window |
 | `Super + P` | Pseudo Tiling (Dwindle) |
@@ -96,7 +98,7 @@ The **Super** key (Windows key) is your main modifier.
 | Keybind | Action |
 |---------|--------|
 | `Super + Alt + 1` | Screenshot Monitor |
-| `Super + Alt + 2` | Screenshot Active Window |
+| `Super + Alt + 2` | Screenshot a Window |
 | `Super + Alt + 3` | Screenshot Region |
 
 ### Navigation

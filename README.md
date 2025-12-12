@@ -6,8 +6,6 @@
 
 **A sharp, elegant Hyprland setup brewed with Catppuccin Mocha.**
 
-[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=
-
 </div>
 
 ***

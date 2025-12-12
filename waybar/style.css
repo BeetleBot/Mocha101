@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: transparent;
+    background-color: #1E1E2E;
     color: #f5e0dc;
     transition-property: background-color;
     transition-duration: .5s;
@@ -91,7 +91,7 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
-    margin: 0 3px;
+    margin: 0 0px;
 }
 
 #tray {
@@ -103,6 +103,11 @@ button:hover {
     margin-left: 10px;
     background-color: #1E1E2E;
     color:#b4befe;  
+}
+
+#custom-logo:hover {
+    background-color: #b4befe;
+    color: #1E1E2E;
 }
 
 #window,
@@ -125,20 +130,40 @@ button:hover {
     color:#b4befe;
 }
 
+#bluetooth:hover {
+    background-color: #b4befe;
+    color: #1E1E2E;
+}
+
 #clock {
     background-color: #1E1E2E;
     color: #b4befe;
 }
 
+#clock:hover {
+    background-color: #b4befe;
+    color: #1E1E2E;
+}
+
 #custom-notification {
   background-color: #1E1E2E;   
   color:#b4befe;
+  margin-right: 10px;
+}
+
+#custom-notification:hover {
+    background-color: #b4befe;
+    color: #1E1E2E;
 }
 
 #network {
     background-color: #1E1E2E;
     color:#b4befe;
-    margin-right: 10px;
+}
+
+#network:hover {
+    background-color: #b4befe;
+    color: #1E1E2E;
 }
 
 #network.disconnected {

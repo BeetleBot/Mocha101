@@ -4,22 +4,22 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 20, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "margin-top": 9,
+    "margin-top": 0,
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "custom/logo",
-        "hyprland/workspaces"
+        "clock"
     ],
     "modules-center": [
-        "clock"
+        "hyprland/workspaces"
     ],
     "modules-right": [
         "tray",
         "pulseaudio",
-        "custom/notification",
         "bluetooth",
-        "network"
+        "network",
+        "custom/notification"
     ],
 
     "tray": {
@@ -29,7 +29,7 @@
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+        "on-click": "$HOME/walls.sh"
     },
 
     "hyprland/workspaces": {
@@ -92,8 +92,11 @@
 
     "clock": {
         "tooltip-format": "{calendar}",
-        "format-alt": "  {:%a, %d %b %Y}",
-        "format": "  {:%I:%M %p}"
+        /*"format-alt": "  {:%a, %d %b %Y}",
+        "format": "  {:%I:%M %p}"*/
+        "format-alt": "{:%a, %d %b %Y}",
+        "format": "{:%I:%M %p}"
+
     },
 
     /*
@@ -140,7 +143,7 @@
     "tooltip": true,
     "format": "<span size='11pt'> {0} </span>",
     //"format-icons": {
-    //  "notification": "",
+    //"notification": ""
     //  "none": "",
     //  "dnd-notification": "",
     //  "dnd-none": "",

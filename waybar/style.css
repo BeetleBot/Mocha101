@@ -46,7 +46,6 @@ button:hover {
 }
 #workspaces button {
     background: #1E1E2E;
-	min-width: 20px;
     color: #b4befe;
     transition: all 0.1s ease-in-out;
 }
@@ -95,6 +94,17 @@ button:hover {
     margin: 0 3px;
 }
 
+#tray {
+    background-color: #1E1E2E;
+    color:#b4befe;  
+}
+
+#custom-logo {
+    margin-left: 10px;
+    background-color: #1E1E2E;
+    color:#b4befe;  
+}
+
 #window,
 #workspaces {
     margin: 0 0px;
@@ -102,7 +112,7 @@ button:hover {
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
@@ -117,7 +127,7 @@ button:hover {
 
 #clock {
     background-color: #1E1E2E;
-    color: #cba6f7;
+    color: #b4befe;
 }
 
 #custom-notification {

@@ -107,6 +107,12 @@ button:hover {
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
 }
+
+#bluetooth{
+    background-color: #1E1E2E;
+    color:#b4befe;
+}
+
 #clock {
     background-color: #1E1E2E;
     color: #cba6f7;

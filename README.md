@@ -90,7 +90,6 @@ The **Super** key (Windows key) is your main modifier.
 |---------|--------|
 | `Super + Shift + W` | Set Random Wallpaper |
 | `Super + R` | Reload Waybar |
-| `Super + Shift + D` | Run Drive Script |
 
 ### Screenshots
 

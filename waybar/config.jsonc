@@ -35,7 +35,8 @@
         }
     },
 
- "bluetooth": {
+    
+    "bluetooth": {
         // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
         // "format": "󰂯 {status}",
         // format-* handles every state, so default format is not necessary.
@@ -49,7 +50,6 @@
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "on-click-middle": "kitty -e bluetuith"
     },
-
 
     "clock": {
         // "timezone": "America/New_York",
@@ -108,14 +108,13 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
-  },
+    },
 
     "backlight": {
         // "device": "acpi_video1",
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
-
 
     "battery": {
         "states": {

@@ -119,7 +119,7 @@ The **Super** key (Windows key) is your main modifier.
 | Notifications | Swaync | Notification center with CSS styling |
 | Terminal | Kitty | GPU-accelerated terminal |
 | Launcher | Rofi-wayland | Quick app launcher |
-| Bluetooth | Blueman | For the Waybar module |
+| Bluetooth | Bluetuith | For the Waybar module |
 | Screenshots | Hyprshot | Fast and minimal |
 | Lock Screen | Hyprlock + Hypridle | Screen lock and idle control |
 | System Info | Fastfetch | System info in Mocha colors |

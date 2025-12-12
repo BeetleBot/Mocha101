@@ -71,7 +71,7 @@ PACKAGES=(
     zsh
     hyprshot
     ttf-jetbrains-mono-nerd
-    blueman
+    bluetuith-bin
 )
 
 # Loop through each package to announce and force reinstall
